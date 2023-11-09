@@ -4,7 +4,7 @@ import FruitDetails from './App/Components/FruitDetails/FruitDetails';
 import NewFruitForm from './App/Components/NewFruitForm/NewFruitForm';
 import Header from './App/Components/Header/Header';
 import Footer from './App/Components/Footer/Footer';
-import { Route, Switch } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 const Main = () => {
   return (

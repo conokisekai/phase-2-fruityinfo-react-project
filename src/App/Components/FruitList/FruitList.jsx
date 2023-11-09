@@ -6,7 +6,7 @@ const FruitList = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('https://fruityvice.com/api/fruit/all');
+        const response = await fetch('https://cors-anywhere.herokuapp.com/https://fruityvice.com/api/fruit');
         const data = await response.json();
         setFruits(data); 
       } catch (error) {
